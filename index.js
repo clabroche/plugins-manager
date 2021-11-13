@@ -9,13 +9,12 @@ let plugins = []
 
 function loadPlugins(paths = []) {
   plugins = []
-  paths.forEach((path) => {
-    if(!fs.existsSync(path)) {
-      const msg = `${path} not exists`
+  paths.forEach((pluginsPath) => {
+    if (!fs.existsSync(pluginsPath)) {
+      const msg = `${pluginsPath} not exists`
       notify({name: 'load plugins'}, msg)
       throw new Error(msg)
     }
-    const pluginsPath = pathfs.resolve(__dirname, 'plugins')
     const files = fs.readdirSync(pluginsPath)
     files.forEach(file => {
       const pluginPath = pathfs.resolve(pluginsPath, file)
