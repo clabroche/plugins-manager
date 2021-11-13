@@ -1,0 +1,24 @@
+{
+  "name": "@iryu54/plugins-manager",
+  "version": "1.0.0",
+  "description": "Simple loader for plugins in node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clabroche/plugins-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clabroche/plugins-manager/issues"
+  },
+  "homepage": "https://github.com/clabroche/plugins-manager#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "command-exists": "^1.2.9",
+    "node-notifier": "^10.0.0"
+  }
+}
