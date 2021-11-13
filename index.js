@@ -72,5 +72,6 @@ async function launch(command, options) {
 module.exports = {
   getPlugins: () => plugins,
   loadPlugins,
-  launch
+  launch,
+  notify
 }
