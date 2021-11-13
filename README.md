@@ -1,10 +1,10 @@
-# Plugin Manager
+# Plugins Manager
 
 Simple loader for plugins in node js
 
 ## Install
  
- ``` npm i  @iryu54/plugin-manager```
+ ``` npm i  @iryu54/plugins-manager```
 
 ## Usage
 
